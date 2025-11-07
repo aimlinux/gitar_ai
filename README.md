@@ -1,1 +1,1 @@
-# gitar_ai
+# guitar_ai

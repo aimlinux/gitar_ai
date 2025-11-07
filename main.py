@@ -160,7 +160,7 @@ def on_generate():
     key = key_var.get()
     style = style_var.get()
     progression = generate_progression(key, style)
-    result = f"Key: {key}　Style: {style}\n\nProgression: | " + " | ".join(progression) + " |\n\n"
+    result = f"Key: {key}  Style: {style}\n\nProgression: | " + " | ".join(progression) + " |\n\n"
     for chord in progression:
         result += f"{chord:4s} → {get_shape(chord)}\n"
 
@@ -183,15 +183,16 @@ generate_button = tb.Button(
     text="🎶 Generate Progression",
     bootstyle="info-outline",
     width=25,
-    command=on_generate
+    command=on_generate,
+    padding=(10, 10),         # 横・縦方向の余白（px）
 )
-generate_button.pack(pady=10)
+generate_button.pack(pady=20)
 
 # クレジット
 footer = tb.Label(
     root,
     text="Created by 小原和真 🎸",
-    font=("Segoe UI", 9),
+    font=("Segoe UI", 18),
     bootstyle="secondary"
 )
 footer.pack(side="bottom", pady=8)
