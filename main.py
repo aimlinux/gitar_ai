@@ -124,7 +124,7 @@ title_label = tb.Label(
     root,
     text="🎸 Guitar Chord Progression Generator 🎵",
     font=("Segoe UI", 18, "bold"),
-    bootstyle="info"
+    bootstyle="info" 
 )
 title_label.pack(pady=15)
 
