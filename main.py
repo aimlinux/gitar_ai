@@ -30,7 +30,7 @@ COMMON_PATTERNS = {
     'Ballad': [
         ['I','vi','IV','V'],
         ['I','V','vi','IV']
-    ]
+    ],
 }
 
 CHORD_SHAPES = {
