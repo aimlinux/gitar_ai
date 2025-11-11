@@ -180,7 +180,7 @@ def on_generate():
 # 生成ボタン
 generate_button = tb.Button(
     root,
-    text="🎶 Generate Progression",
+    text="Generate Progression",
     bootstyle="info-outline",
     width=25,
     command=on_generate,
