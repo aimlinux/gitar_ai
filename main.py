@@ -29,7 +29,7 @@ COMMON_PATTERNS = {
     ],
     'Ballad': [ 
         ['I','vi','IV','V'],
-        ['I','V','vi','IV']
+        ['I','V','vi','IV'] 
     ], 
 }
 
