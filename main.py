@@ -74,7 +74,7 @@ def generate_progression(key, style, bars=4):
     while len(prog) < bars:
         prog.append(roman_to_chord(pattern[i % len(pattern)], key))
         i += 1
-    return prog
+    return prog 
 
 def get_shape(chord):
     return CHORD_SHAPES.get(chord, "N/A")
