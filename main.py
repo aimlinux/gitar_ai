@@ -187,7 +187,7 @@ generate_button = tb.Button(
     padding=(10, 10),         # 横・縦方向の余白（px）
 )
 generate_button.pack(pady=20)
-
+ 
 # クレジット
 footer = tb.Label(
     root,
